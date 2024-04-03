@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
 @app.route('/')
 def home():    
-    return render_template("<p>Hello world!</p>")
+    return render_template("<pizza>Hello world!</pizza>")
 
 
 
